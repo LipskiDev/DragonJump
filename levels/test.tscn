@@ -1,0 +1,130 @@
+[gd_scene load_steps=6 format=3 uid="uid://q6gw208igsn7"]
+
+[ext_resource type="PackedScene" uid="uid://codjttl3dvec" path="res://entities/BlockOutNode.tscn" id="2_annxh"]
+[ext_resource type="PackedScene" uid="uid://ccl70gq2d0gu1" path="res://player/player.tscn" id="2_nap3d"]
+[ext_resource type="PackedScene" uid="uid://rfprk4381hkd" path="res://entities/RoomController.tscn" id="3_gu2lf"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_s86x4"]
+friction = 2.0
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_5054k"]
+friction = 0.0
+bounce = 1.0
+
+[node name="Test" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("2_nap3d")]
+position = Vector2(0, -1800)
+disable_mode = 2
+maxLaunchStrength = 200.0
+
+[node name="Walls" type="Node2D" parent="."]
+
+[node name="BlockOutNode" parent="Walls" instance=ExtResource("2_annxh")]
+position = Vector2(-880, 240)
+scale = Vector2(44, 1)
+physics_material_override = SubResource("PhysicsMaterial_s86x4")
+
+[node name="BlockOutNode2" parent="Walls" instance=ExtResource("2_annxh")]
+position = Vector2(-880, -2520)
+rotation = 1.5708
+scale = Vector2(70, 1)
+physics_material_override = SubResource("PhysicsMaterial_5054k")
+
+[node name="BlockOutNode3" parent="Walls" instance=ExtResource("2_annxh")]
+position = Vector2(920, -2520)
+rotation = 1.5708
+scale = Vector2(70, 1)
+physics_material_override = SubResource("PhysicsMaterial_5054k")
+
+[node name="Platforms" type="Node2D" parent="."]
+
+[node name="BlockOutNode4" parent="Platforms" instance=ExtResource("2_annxh")]
+position = Vector2(880, -160)
+rotation = 1.5708
+scale = Vector2(10, 19)
+
+[node name="BlockOutNode6" parent="Platforms" instance=ExtResource("2_annxh")]
+position = Vector2(-120, -160)
+rotation = 1.5708
+scale = Vector2(10, 19)
+
+[node name="BlockOutNode" parent="Platforms" instance=ExtResource("2_annxh")]
+position = Vector2(-40, -520)
+scale = Vector2(2, 1)
+
+[node name="BlockOutNode2" parent="Platforms" instance=ExtResource("2_annxh")]
+position = Vector2(-240, -720)
+scale = Vector2(2, 1)
+
+[node name="BlockOutNode3" parent="Platforms" instance=ExtResource("2_annxh")]
+position = Vector2(160, -720)
+scale = Vector2(2, 1)
+
+[node name="BlockOutNode5" parent="Platforms" instance=ExtResource("2_annxh")]
+position = Vector2(160, -960)
+scale = Vector2(2, 1)
+
+[node name="BlockOutNode7" parent="Platforms" instance=ExtResource("2_annxh")]
+position = Vector2(-240, -960)
+scale = Vector2(2, 1)
+
+[node name="BlockOutNode8" parent="Platforms" instance=ExtResource("2_annxh")]
+position = Vector2(-480, -1160)
+scale = Vector2(2, 1)
+
+[node name="BlockOutNode12" parent="Platforms" instance=ExtResource("2_annxh")]
+position = Vector2(-480, -1440)
+scale = Vector2(2, 1)
+
+[node name="BlockOutNode10" parent="Platforms" instance=ExtResource("2_annxh")]
+position = Vector2(-880, -1160)
+scale = Vector2(2, 1)
+
+[node name="BlockOutNode9" parent="Platforms" instance=ExtResource("2_annxh")]
+position = Vector2(400, -1160)
+scale = Vector2(2, 1)
+
+[node name="BlockOutNode13" parent="Platforms" instance=ExtResource("2_annxh")]
+position = Vector2(400, -1440)
+scale = Vector2(2, 1)
+
+[node name="BlockOutNode14" parent="Platforms" instance=ExtResource("2_annxh")]
+position = Vector2(160, -1560)
+scale = Vector2(2, 1)
+
+[node name="BlockOutNode15" parent="Platforms" instance=ExtResource("2_annxh")]
+position = Vector2(-240, -1560)
+scale = Vector2(2, 1)
+
+[node name="BlockOutNode16" parent="Platforms" instance=ExtResource("2_annxh")]
+position = Vector2(-40, -1720)
+scale = Vector2(2, 1)
+
+[node name="BlockOutNode19" parent="Platforms" instance=ExtResource("2_annxh")]
+position = Vector2(80, -2040)
+scale = Vector2(2, 1)
+
+[node name="BlockOutNode18" parent="Platforms" instance=ExtResource("2_annxh")]
+position = Vector2(-560, -2360)
+scale = Vector2(1, 12)
+
+[node name="BlockOutNode17" parent="Platforms" instance=ExtResource("2_annxh")]
+position = Vector2(-560, -1880)
+scale = Vector2(10, 1)
+
+[node name="BlockOutNode11" parent="Platforms" instance=ExtResource("2_annxh")]
+position = Vector2(800, -1160)
+scale = Vector2(2, 1)
+
+[node name="Levels" type="Node2D" parent="."]
+visible = false
+
+[node name="RoomControllerLevel1" parent="Levels" instance=ExtResource("3_gu2lf")]
+position = Vector2(0, -200)
+
+[node name="RoomControllerLevel2" parent="Levels" instance=ExtResource("3_gu2lf")]
+position = Vector2(0, -1200)
+
+[node name="RoomControllerLevel3" parent="Levels" instance=ExtResource("3_gu2lf")]
+position = Vector2(0, -2200)

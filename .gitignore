@@ -1,0 +1,17 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+.import/
+*.translation
+*.m4a
+*.mp3
+*.ogg
+*.wav
+*.exe
+*.pck
+*.zip
+*.log
+*.cfg
+*.mono/
+
+.editor_config

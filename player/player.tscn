@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://ccl70gq2d0gu1"]
 
-[ext_resource type="Script" path="res://player/Player.cs" id="1_vudin"]
+[ext_resource type="Script" uid="uid://degxiec4olm7n" path="res://player/Player.cs" id="1_vudin"]
 
 [sub_resource type="Gradient" id="Gradient_g5mxx"]
 colors = PackedColorArray(0, 0, 0, 1, 0, 0, 0, 1)
@@ -9,7 +9,7 @@ colors = PackedColorArray(0, 0, 0, 1, 0, 0, 0, 1)
 gradient = SubResource("Gradient_g5mxx")
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_3famv"]
-size = Vector2(64, 64)
+size = Vector2(96, 96)
 
 [node name="Player" type="RigidBody2D"]
 lock_rotation = true
@@ -19,6 +19,7 @@ launchMultiplier = 5.0
 metadata/IsPlayer = true
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(1.5, 1.5)
 texture = SubResource("GradientTexture2D_ais01")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]

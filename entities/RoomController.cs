@@ -20,7 +20,7 @@ public partial class RoomController : Area2D
 	{
 		if(body.HasMeta("IsPlayer"))
 		{
-			MyCamera.Enabled = true;
+			SetCameraEnabled(true);
 		}
 	}
 
@@ -28,12 +28,12 @@ public partial class RoomController : Area2D
 	{
 		if(body.HasMeta("IsPlayer"))
 		{
-			GD.Print("Exited");
-			MyCamera.Enabled = false;
+			SetCameraEnabled(false);
 		}
 	}
 
-
-
-	
+	public void SetCameraEnabled(bool enabled)
+	{
+		MyCamera.Enabled = enabled; 
+	}
 }

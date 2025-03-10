@@ -7,9 +7,13 @@ public partial class Player : RigidBody2D
 
 	Vector2 MouseStartPos;
 	Vector2 MouseCurrentPos;
+	
 	bool showLine = false;
 	bool inputHasStarted = false;
 	float threshold = 0.001f;
+
+	[Export]
+	float gameSpeed { get; set; } = 1.3f; 
 
 
 	[Export]
@@ -27,7 +31,7 @@ public partial class Player : RigidBody2D
 	// Called when the node enters the scene tree for the first time.
 	public override void _Ready()
 	{
-		Engine.TimeScale = 1.3;		
+		Engine.TimeScale = gameSpeed;		
 	}
 
 	// Called every frame. 'delta' is the elapsed time since the previous frame.

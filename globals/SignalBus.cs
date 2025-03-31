@@ -1,18 +1,41 @@
 using Godot;
 using System;
 
-[Signal]
-public delegate void LaunchPlayerEventHandler(Vector2 launchDirection);
+
 
 public partial class SignalBus : Node
 {
-	// Called when the node enters the scene tree for the first time.
-	public override void _Ready()
+
+	[Signal]
+	public delegate void JumpSignalEventHandler();
+
+	private static SignalBus _instance;
+
+	public static SignalBus Instance
 	{
+		get
+		{
+			if(_instance == null)
+			{
+				_instance = new SignalBus();
+			}
+			return _instance;
+		}
 	}
 
-	// Called every frame. 'delta' is the elapsed time since the previous frame.
-	public override void _Process(double delta)
+	public override void _Ready()
 	{
+		if(_instance == null)
+		{
+			_instance = this;
+		}
+		else
+		{
+			QueueFree();
+		}
 	}
+
+
+
+	
 }

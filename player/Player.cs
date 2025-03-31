@@ -4,16 +4,18 @@ using Godot;
 
 public partial class Player : RigidBody2D
 {
-
 	Vector2 MouseStartPos;
 	Vector2 MouseCurrentPos;
 	
 	bool showLine = false;
 	bool inputHasStarted = false;
-	float threshold = 0.001f;
+	float threshold = 0.01f;
 
 	[Export]
 	float gameSpeed { get; set; } = 1.3f; 
+
+	[Export]
+	float maximumSpeed { get; set; } = 10f;
 
 
 	[Export]
@@ -24,9 +26,6 @@ public partial class Player : RigidBody2D
 	
 	[Export]
 	float launchMultiplier { get; set; } = 1;
-
-	Vector2 SlopeDirection = Vector2.Down;
-
 
 	// Called when the node enters the scene tree for the first time.
 	public override void _Ready()
@@ -47,15 +46,35 @@ public partial class Player : RigidBody2D
 		{
 			LinearVelocity = Vector2.Zero;
 		}
+
+
+
+
+		Line2D line2D = GetNode<Line2D>("Line2D");
+		line2D.Rotation = -Rotation;
+		
 	}
 
-	public void LaunchPlayer(Vector2 startPosition, Vector2 endPosition)
+    public override void _IntegrateForces(PhysicsDirectBodyState2D state)
+    {
+        base._IntegrateForces(state);
+
+		if(LinearVelocity.Y > maximumSpeed)
+		{
+			LinearVelocity = LinearVelocity with {Y = maximumSpeed};
+		}
+    }
+
+    public void LaunchPlayer(Vector2 startPosition, Vector2 endPosition)
 	{
 		Vector2 launchDirection = endPosition - startPosition;
 
 		launchDirection = ClipVector(launchDirection, minLaunchStrength, maxLaunchStrength);
 		
 		ApplyCentralImpulse(-launchDirection * launchMultiplier);
+		GD.Print((-launchDirection * launchMultiplier).Length());
+
+		SignalBus.Instance.EmitSignal(nameof(SignalBus.JumpSignal));
 	}
 
 	public void DrawLine(Vector2 startPosition, Vector2 endPosition)
@@ -68,15 +87,15 @@ public partial class Player : RigidBody2D
 
 	
 
-	public Vector2 ClipVector(Vector2 input, float minLenght, float maxLength) 
+	public Vector2 ClipVector(Vector2 input, float minLength, float maxLength) 
 	{
 		float length = input.Length();
 
 		Vector2 normalized = input.Normalized();
 
-		if(length < minLenght) 
+		if(length < minLength) 
 		{
-			return normalized * minLenght;
+			return normalized * minLength;
 		} 
 		else if(length > maxLength)
 		{
@@ -95,7 +114,7 @@ public partial class Player : RigidBody2D
 			GetTree().ReloadCurrentScene();
 		}
 		
-		if(LinearVelocity != Vector2.Zero) return;
+		if(LinearVelocity.Length() >= threshold) return;
 		if(@event.IsAction("click") && @event is InputEventMouse mouseEvent)
 		{
 			if(@event.IsPressed())

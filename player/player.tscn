@@ -1,6 +1,7 @@
-[gd_scene load_steps=5 format=3 uid="uid://ccl70gq2d0gu1"]
+[gd_scene load_steps=6 format=3 uid="uid://ccl70gq2d0gu1"]
 
 [ext_resource type="Script" uid="uid://degxiec4olm7n" path="res://player/Player.cs" id="1_vudin"]
+[ext_resource type="Texture2D" uid="uid://dx1dddhvam0r5" path="res://assets/Arrow.png" id="2_rkbax"]
 
 [sub_resource type="Gradient" id="Gradient_g5mxx"]
 colors = PackedColorArray(0, 0, 0, 1, 0, 0, 0, 1)
@@ -9,7 +10,7 @@ colors = PackedColorArray(0, 0, 0, 1, 0, 0, 0, 1)
 gradient = SubResource("Gradient_g5mxx")
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_3famv"]
-size = Vector2(96, 96)
+size = Vector2(64, 64)
 
 [node name="Player" type="RigidBody2D"]
 lock_rotation = true
@@ -19,13 +20,18 @@ launchMultiplier = 5.0
 metadata/IsPlayer = true
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-3.8147e-06, -2.86102e-06)
 scale = Vector2(1.5, 1.5)
 texture = SubResource("GradientTexture2D_ais01")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+scale = Vector2(1.5, 1.5)
 shape = SubResource("RectangleShape2D_3famv")
 
 [node name="Line2D" type="Line2D" parent="."]
 z_index = 2
-width = 5.0
+texture_filter = 1
+width = 128.0
 default_color = Color(1, 0, 0, 1)
+texture = ExtResource("2_rkbax")
+texture_mode = 2

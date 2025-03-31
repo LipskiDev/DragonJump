@@ -23,7 +23,7 @@ size = Vector2(128, 128)
 script = ExtResource("1_ifaiv")
 
 [node name="Player" parent="." instance=ExtResource("2_5k4jt")]
-position = Vector2(320, -20800)
+position = Vector2(0, 1280)
 disable_mode = 2
 continuous_cd = 2
 gameSpeed = 2.0
@@ -56,230 +56,254 @@ rotation = 3.14159
 scale = Vector2(1, 25)
 physics_material_override = SubResource("PhysicsMaterial_5054k")
 
-[node name="BlockOutNode6" parent="Walls" instance=ExtResource("3_qy63d")]
-position = Vector2(-1664, -1728)
-rotation = 3.14159
-scale = Vector2(1, 25)
-physics_material_override = SubResource("PhysicsMaterial_5054k")
-
-[node name="BlockOutNode7" parent="Walls" instance=ExtResource("3_qy63d")]
+[node name="BlockOutNode56" parent="Walls" instance=ExtResource("3_qy63d")]
 position = Vector2(1728, -1728)
 rotation = 3.14159
 scale = Vector2(1, 25)
 physics_material_override = SubResource("PhysicsMaterial_5054k")
 
-[node name="BlockOutNode8" parent="Walls" instance=ExtResource("3_qy63d")]
+[node name="BlockOutNode57" parent="Walls" instance=ExtResource("3_qy63d")]
+position = Vector2(-1664, -1728)
+rotation = 3.14159
+scale = Vector2(1, 25)
+physics_material_override = SubResource("PhysicsMaterial_5054k")
+
+[node name="BlockOutNode58" parent="Walls" instance=ExtResource("3_qy63d")]
 position = Vector2(1728, -3328)
 rotation = 3.14159
 scale = Vector2(1, 25)
 physics_material_override = SubResource("PhysicsMaterial_5054k")
 
-[node name="BlockOutNode9" parent="Walls" instance=ExtResource("3_qy63d")]
+[node name="BlockOutNode59" parent="Walls" instance=ExtResource("3_qy63d")]
 position = Vector2(-1664, -3328)
 rotation = 3.14159
 scale = Vector2(1, 25)
 physics_material_override = SubResource("PhysicsMaterial_5054k")
 
-[node name="BlockOutNode10" parent="Walls" instance=ExtResource("3_qy63d")]
-position = Vector2(1728, -4928)
-rotation = 3.14159
-scale = Vector2(1, 25)
-physics_material_override = SubResource("PhysicsMaterial_5054k")
-
-[node name="BlockOutNode11" parent="Walls" instance=ExtResource("3_qy63d")]
+[node name="BlockOutNode6" parent="Walls" instance=ExtResource("3_qy63d")]
 position = Vector2(-1664, -4928)
 rotation = 3.14159
 scale = Vector2(1, 25)
 physics_material_override = SubResource("PhysicsMaterial_5054k")
 
-[node name="BlockOutNode12" parent="Walls" instance=ExtResource("3_qy63d")]
+[node name="BlockOutNode7" parent="Walls" instance=ExtResource("3_qy63d")]
+position = Vector2(1728, -4928)
+rotation = 3.14159
+scale = Vector2(1, 25)
+physics_material_override = SubResource("PhysicsMaterial_5054k")
+
+[node name="BlockOutNode8" parent="Walls" instance=ExtResource("3_qy63d")]
 position = Vector2(1728, -6528)
 rotation = 3.14159
 scale = Vector2(1, 25)
 physics_material_override = SubResource("PhysicsMaterial_5054k")
 
-[node name="BlockOutNode13" parent="Walls" instance=ExtResource("3_qy63d")]
+[node name="BlockOutNode9" parent="Walls" instance=ExtResource("3_qy63d")]
 position = Vector2(-1664, -6528)
 rotation = 3.14159
 scale = Vector2(1, 25)
 physics_material_override = SubResource("PhysicsMaterial_5054k")
 
-[node name="BlockOutNode14" parent="Walls" instance=ExtResource("3_qy63d")]
+[node name="BlockOutNode10" parent="Walls" instance=ExtResource("3_qy63d")]
 position = Vector2(1728, -8128)
 rotation = 3.14159
 scale = Vector2(1, 25)
 physics_material_override = SubResource("PhysicsMaterial_5054k")
 
-[node name="BlockOutNode15" parent="Walls" instance=ExtResource("3_qy63d")]
+[node name="BlockOutNode11" parent="Walls" instance=ExtResource("3_qy63d")]
 position = Vector2(-1664, -8128)
 rotation = 3.14159
 scale = Vector2(1, 25)
 physics_material_override = SubResource("PhysicsMaterial_5054k")
 
-[node name="BlockOutNode16" parent="Walls" instance=ExtResource("3_qy63d")]
+[node name="BlockOutNode12" parent="Walls" instance=ExtResource("3_qy63d")]
 position = Vector2(1728, -9728)
 rotation = 3.14159
 scale = Vector2(1, 25)
 physics_material_override = SubResource("PhysicsMaterial_5054k")
 
-[node name="BlockOutNode17" parent="Walls" instance=ExtResource("3_qy63d")]
+[node name="BlockOutNode13" parent="Walls" instance=ExtResource("3_qy63d")]
 position = Vector2(-1664, -9728)
 rotation = 3.14159
 scale = Vector2(1, 25)
 physics_material_override = SubResource("PhysicsMaterial_5054k")
 
-[node name="BlockOutNode18" parent="Walls" instance=ExtResource("3_qy63d")]
+[node name="BlockOutNode14" parent="Walls" instance=ExtResource("3_qy63d")]
 position = Vector2(1728, -11328)
 rotation = 3.14159
 scale = Vector2(1, 25)
 physics_material_override = SubResource("PhysicsMaterial_5054k")
 
-[node name="BlockOutNode19" parent="Walls" instance=ExtResource("3_qy63d")]
+[node name="BlockOutNode15" parent="Walls" instance=ExtResource("3_qy63d")]
 position = Vector2(-1664, -11328)
 rotation = 3.14159
 scale = Vector2(1, 25)
 physics_material_override = SubResource("PhysicsMaterial_5054k")
 
-[node name="BlockOutNode20" parent="Walls" instance=ExtResource("3_qy63d")]
+[node name="BlockOutNode16" parent="Walls" instance=ExtResource("3_qy63d")]
 position = Vector2(1728, -12928)
 rotation = 3.14159
 scale = Vector2(1, 25)
 physics_material_override = SubResource("PhysicsMaterial_5054k")
 
-[node name="BlockOutNode21" parent="Walls" instance=ExtResource("3_qy63d")]
+[node name="BlockOutNode17" parent="Walls" instance=ExtResource("3_qy63d")]
 position = Vector2(-1664, -12928)
 rotation = 3.14159
 scale = Vector2(1, 25)
 physics_material_override = SubResource("PhysicsMaterial_5054k")
 
-[node name="BlockOutNode22" parent="Walls" instance=ExtResource("3_qy63d")]
+[node name="BlockOutNode18" parent="Walls" instance=ExtResource("3_qy63d")]
 position = Vector2(1728, -14528)
 rotation = 3.14159
 scale = Vector2(1, 25)
 physics_material_override = SubResource("PhysicsMaterial_5054k")
 
-[node name="BlockOutNode23" parent="Walls" instance=ExtResource("3_qy63d")]
+[node name="BlockOutNode19" parent="Walls" instance=ExtResource("3_qy63d")]
 position = Vector2(-1664, -14528)
 rotation = 3.14159
 scale = Vector2(1, 25)
 physics_material_override = SubResource("PhysicsMaterial_5054k")
 
-[node name="BlockOutNode24" parent="Walls" instance=ExtResource("3_qy63d")]
+[node name="BlockOutNode20" parent="Walls" instance=ExtResource("3_qy63d")]
 position = Vector2(1728, -16128)
 rotation = 3.14159
 scale = Vector2(1, 25)
 physics_material_override = SubResource("PhysicsMaterial_5054k")
 
-[node name="BlockOutNode25" parent="Walls" instance=ExtResource("3_qy63d")]
+[node name="BlockOutNode21" parent="Walls" instance=ExtResource("3_qy63d")]
 position = Vector2(-1664, -16128)
 rotation = 3.14159
 scale = Vector2(1, 25)
 physics_material_override = SubResource("PhysicsMaterial_5054k")
 
-[node name="BlockOutNode26" parent="Walls" instance=ExtResource("3_qy63d")]
+[node name="BlockOutNode22" parent="Walls" instance=ExtResource("3_qy63d")]
 position = Vector2(1728, -17728)
 rotation = 3.14159
 scale = Vector2(1, 25)
 physics_material_override = SubResource("PhysicsMaterial_5054k")
 
-[node name="BlockOutNode27" parent="Walls" instance=ExtResource("3_qy63d")]
+[node name="BlockOutNode23" parent="Walls" instance=ExtResource("3_qy63d")]
 position = Vector2(-1664, -17728)
 rotation = 3.14159
 scale = Vector2(1, 25)
 physics_material_override = SubResource("PhysicsMaterial_5054k")
 
-[node name="BlockOutNode28" parent="Walls" instance=ExtResource("3_qy63d")]
+[node name="BlockOutNode24" parent="Walls" instance=ExtResource("3_qy63d")]
 position = Vector2(1728, -19328)
 rotation = 3.14159
 scale = Vector2(1, 25)
 physics_material_override = SubResource("PhysicsMaterial_5054k")
 
-[node name="BlockOutNode29" parent="Walls" instance=ExtResource("3_qy63d")]
+[node name="BlockOutNode25" parent="Walls" instance=ExtResource("3_qy63d")]
 position = Vector2(-1664, -19328)
 rotation = 3.14159
 scale = Vector2(1, 25)
 physics_material_override = SubResource("PhysicsMaterial_5054k")
 
-[node name="BlockOutNode30" parent="Walls" instance=ExtResource("3_qy63d")]
+[node name="BlockOutNode26" parent="Walls" instance=ExtResource("3_qy63d")]
 position = Vector2(1728, -20928)
 rotation = 3.14159
 scale = Vector2(1, 25)
 physics_material_override = SubResource("PhysicsMaterial_5054k")
 
-[node name="BlockOutNode31" parent="Walls" instance=ExtResource("3_qy63d")]
+[node name="BlockOutNode27" parent="Walls" instance=ExtResource("3_qy63d")]
 position = Vector2(-1664, -20928)
 rotation = 3.14159
 scale = Vector2(1, 25)
 physics_material_override = SubResource("PhysicsMaterial_5054k")
 
-[node name="BlockOutNode32" parent="Walls" instance=ExtResource("3_qy63d")]
+[node name="BlockOutNode28" parent="Walls" instance=ExtResource("3_qy63d")]
 position = Vector2(1728, -22528)
 rotation = 3.14159
 scale = Vector2(1, 25)
 physics_material_override = SubResource("PhysicsMaterial_5054k")
 
-[node name="BlockOutNode33" parent="Walls" instance=ExtResource("3_qy63d")]
+[node name="BlockOutNode29" parent="Walls" instance=ExtResource("3_qy63d")]
 position = Vector2(-1664, -22528)
 rotation = 3.14159
 scale = Vector2(1, 25)
 physics_material_override = SubResource("PhysicsMaterial_5054k")
 
-[node name="BlockOutNode34" parent="Walls" instance=ExtResource("3_qy63d")]
+[node name="BlockOutNode30" parent="Walls" instance=ExtResource("3_qy63d")]
 position = Vector2(1728, -24128)
 rotation = 3.14159
 scale = Vector2(1, 25)
 physics_material_override = SubResource("PhysicsMaterial_5054k")
 
-[node name="BlockOutNode35" parent="Walls" instance=ExtResource("3_qy63d")]
+[node name="BlockOutNode31" parent="Walls" instance=ExtResource("3_qy63d")]
 position = Vector2(-1664, -24128)
 rotation = 3.14159
 scale = Vector2(1, 25)
 physics_material_override = SubResource("PhysicsMaterial_5054k")
 
-[node name="BlockOutNode36" parent="Walls" instance=ExtResource("3_qy63d")]
+[node name="BlockOutNode32" parent="Walls" instance=ExtResource("3_qy63d")]
 position = Vector2(1728, -25728)
 rotation = 3.14159
 scale = Vector2(1, 25)
 physics_material_override = SubResource("PhysicsMaterial_5054k")
 
-[node name="BlockOutNode37" parent="Walls" instance=ExtResource("3_qy63d")]
+[node name="BlockOutNode33" parent="Walls" instance=ExtResource("3_qy63d")]
 position = Vector2(-1664, -25728)
 rotation = 3.14159
 scale = Vector2(1, 25)
 physics_material_override = SubResource("PhysicsMaterial_5054k")
 
+[node name="BlockOutNode34" parent="Walls" instance=ExtResource("3_qy63d")]
+position = Vector2(1728, -23744)
+rotation = 3.14159
+scale = Vector2(1, 25)
+physics_material_override = SubResource("PhysicsMaterial_5054k")
+
+[node name="BlockOutNode35" parent="Walls" instance=ExtResource("3_qy63d")]
+position = Vector2(-1664, -23744)
+rotation = 3.14159
+scale = Vector2(1, 25)
+physics_material_override = SubResource("PhysicsMaterial_5054k")
+
+[node name="BlockOutNode36" parent="Walls" instance=ExtResource("3_qy63d")]
+position = Vector2(1728, -25344)
+rotation = 3.14159
+scale = Vector2(1, 25)
+physics_material_override = SubResource("PhysicsMaterial_5054k")
+
+[node name="BlockOutNode37" parent="Walls" instance=ExtResource("3_qy63d")]
+position = Vector2(-1664, -25344)
+rotation = 3.14159
+scale = Vector2(1, 25)
+physics_material_override = SubResource("PhysicsMaterial_5054k")
+
 [node name="BlockOutNode38" parent="Walls" instance=ExtResource("3_qy63d")]
-position = Vector2(1728, -27328)
+position = Vector2(1728, -26944)
 rotation = 3.14159
 scale = Vector2(1, 25)
 physics_material_override = SubResource("PhysicsMaterial_5054k")
 
 [node name="BlockOutNode39" parent="Walls" instance=ExtResource("3_qy63d")]
-position = Vector2(-1664, -27328)
+position = Vector2(-1664, -26944)
 rotation = 3.14159
 scale = Vector2(1, 25)
 physics_material_override = SubResource("PhysicsMaterial_5054k")
 
 [node name="BlockOutNode40" parent="Walls" instance=ExtResource("3_qy63d")]
-position = Vector2(1728, -28928)
+position = Vector2(1728, -28544)
 rotation = 3.14159
 scale = Vector2(1, 25)
 physics_material_override = SubResource("PhysicsMaterial_5054k")
 
 [node name="BlockOutNode41" parent="Walls" instance=ExtResource("3_qy63d")]
-position = Vector2(-1664, -28928)
+position = Vector2(-1664, -28544)
 rotation = 3.14159
 scale = Vector2(1, 25)
 physics_material_override = SubResource("PhysicsMaterial_5054k")
 
 [node name="BlockOutNode42" parent="Walls" instance=ExtResource("3_qy63d")]
-position = Vector2(1728, -30528)
+position = Vector2(1728, -30144)
 rotation = 3.14159
 scale = Vector2(1, 25)
 physics_material_override = SubResource("PhysicsMaterial_5054k")
 
 [node name="BlockOutNode43" parent="Walls" instance=ExtResource("3_qy63d")]
-position = Vector2(-1664, -30528)
+position = Vector2(-1664, -30144)
 rotation = 3.14159
 scale = Vector2(1, 25)
 physics_material_override = SubResource("PhysicsMaterial_5054k")
@@ -388,23 +412,43 @@ scale = Vector2(2, 2)
 
 [node name="BlockOutNode5" parent="Platforms" instance=ExtResource("3_qy63d")]
 position = Vector2(320, -384)
-scale = Vector2(4, 2)
+scale = Vector2(6, 2)
 
 [node name="BlockOutNode7" parent="Platforms" instance=ExtResource("3_qy63d")]
 position = Vector2(-704, -256)
 scale = Vector2(4, 2)
 
 [node name="BlockOutNode12" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(-960, -1920)
-scale = Vector2(8, 2)
+position = Vector2(-960, -5120)
+scale = Vector2(5, 2)
 
 [node name="BlockOutNode10" parent="Platforms" instance=ExtResource("3_qy63d")]
 position = Vector2(-1152, -640)
 scale = Vector2(8, 2)
 
 [node name="BlockOutNode37" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(-1664, -1152)
-scale = Vector2(4, 7)
+position = Vector2(-1024, -4544)
+scale = Vector2(8, 8)
+
+[node name="BlockOutNode48" parent="Platforms" instance=ExtResource("3_qy63d")]
+position = Vector2(-1664, -3328)
+scale = Vector2(17, 13)
+
+[node name="BlockOutNode61" parent="Platforms" instance=ExtResource("3_qy63d")]
+position = Vector2(-1664, -2496)
+scale = Vector2(11, 15)
+
+[node name="BlockOutNode96" parent="Platforms" instance=ExtResource("3_qy63d")]
+position = Vector2(-1664, -1536)
+scale = Vector2(7, 8)
+
+[node name="BlockOutNode105" parent="Platforms" instance=ExtResource("3_qy63d")]
+position = Vector2(-1664, -1024)
+scale = Vector2(4, 5)
+
+[node name="BlockOutNode106" parent="Platforms" instance=ExtResource("3_qy63d")]
+position = Vector2(-1664, -704)
+scale = Vector2(2, 20)
 
 [node name="BlockOutNode38" parent="Platforms" instance=ExtResource("3_qy63d")]
 position = Vector2(-1664, 512)
@@ -420,13 +464,48 @@ position = Vector2(640, -832)
 scale = Vector2(8, 2)
 
 [node name="BlockOutNode13" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(0, -1920)
+position = Vector2(0, -5120)
 scale = Vector2(11, 2)
 
 [node name="BlockOutNode33" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(1664, -1792)
+position = Vector2(1664, -4992)
 rotation = 1.5708
-scale = Vector2(11, 9)
+scale = Vector2(5, 26)
+
+[node name="BlockOutNode99" parent="Platforms" instance=ExtResource("3_qy63d")]
+position = Vector2(1664, -4672)
+rotation = 1.5708
+scale = Vector2(13, 23)
+
+[node name="BlockOutNode100" parent="Platforms" instance=ExtResource("3_qy63d")]
+position = Vector2(1664, -3840)
+rotation = 1.5708
+scale = Vector2(15, 16)
+
+[node name="BlockOutNode101" parent="Platforms" instance=ExtResource("3_qy63d")]
+position = Vector2(1664, -2880)
+rotation = 1.5708
+scale = Vector2(12, 21)
+
+[node name="BlockOutNode102" parent="Platforms" instance=ExtResource("3_qy63d")]
+position = Vector2(1664, -2112)
+rotation = 1.5708
+scale = Vector2(7, 18)
+
+[node name="BlockOutNode103" parent="Platforms" instance=ExtResource("3_qy63d")]
+position = Vector2(1664, -1664)
+rotation = 1.5708
+scale = Vector2(8, 12)
+
+[node name="BlockOutNode104" parent="Platforms" instance=ExtResource("3_qy63d")]
+position = Vector2(1664, -1152)
+rotation = 1.5708
+scale = Vector2(7, 5)
+
+[node name="BlockOutNode107" parent="Platforms" instance=ExtResource("3_qy63d")]
+position = Vector2(1664, -704)
+rotation = 1.5708
+scale = Vector2(18, 3)
 
 [node name="BlockOutNode14" parent="Platforms" instance=ExtResource("3_qy63d")]
 position = Vector2(192, -1280)
@@ -437,458 +516,481 @@ position = Vector2(-704, -1088)
 scale = Vector2(5, 2)
 
 [node name="BlockOutNode36" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(-1664, -1792)
-scale = Vector2(8, 10)
+position = Vector2(-1664, -4992)
+scale = Vector2(5, 8)
+
+[node name="BlockOutNode111" parent="Platforms" instance=ExtResource("3_qy63d")]
+position = Vector2(-1664, -4096)
+scale = Vector2(5, 8)
 
 [node name="BlockOutNode16" parent="Platforms" instance=ExtResource("3_qy63d")]
 position = Vector2(-256, -1472)
 scale = Vector2(2, 2)
 
-[node name="BlockOutNode19" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(-384, -2240)
-scale = Vector2(2, 1)
+[node name="BlockOutNode108" parent="Platforms" instance=ExtResource("3_qy63d")]
+position = Vector2(320, -2560)
+rotation = 1.5708
+scale = Vector2(4, 5)
+
+[node name="BlockOutNode109" parent="Platforms" instance=ExtResource("3_qy63d")]
+position = Vector2(-576, -2880)
+rotation = -1.5708
+scale = Vector2(4, 5)
+
+[node name="BlockOutNode110" parent="Platforms" instance=ExtResource("3_qy63d")]
+position = Vector2(-1664, -3328)
+rotation = -1.5708
+scale = Vector2(4, 14)
+
+[node name="BlockOutNode17" parent="Platforms" instance=ExtResource("3_qy63d")]
+position = Vector2(-960, -2048)
+scale = Vector2(7, 4)
 
 [node name="BlockOutNode20" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(-1664, -3072)
+position = Vector2(-1664, -6272)
 scale = Vector2(11, 20)
 
 [node name="BlockOutNode32" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(-704, -2752)
-scale = Vector2(4, 2)
+position = Vector2(-704, -5952)
+scale = Vector2(4, 4)
+
+[node name="BlockOutNode112" parent="Platforms" instance=ExtResource("3_qy63d")]
+position = Vector2(192, -5696)
+scale = Vector2(4, 4)
 
 [node name="BlockOutNode21" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(-704, -3520)
+position = Vector2(-704, -6720)
 scale = Vector2(7, 2)
 
 [node name="BlockOutNode29" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(1664, -1792)
+position = Vector2(1664, -4992)
 rotation = 3.14159
 scale = Vector2(15, 37)
 
 [node name="BlockOutNode30" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(-1280, -4224)
+position = Vector2(-1280, -7424)
 scale = Vector2(5, 2)
 
 [node name="BlockOutNode31" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(-704, -4480)
+position = Vector2(-704, -7680)
 scale = Vector2(7, 3)
 
 [node name="BlockOutNode35" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(-704, -5376)
+position = Vector2(-704, -8576)
 scale = Vector2(7, 2)
 
 [node name="BlockOutNode41" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(192, -6144)
+position = Vector2(192, -9344)
 scale = Vector2(6, 2)
 
 [node name="BlockOutNode42" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(1216, -5824)
+position = Vector2(1216, -9024)
 scale = Vector2(7, 2)
 
 [node name="BlockOutNode43" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(-704, -6656)
+position = Vector2(-704, -9856)
 scale = Vector2(4, 2)
 
 [node name="BlockOutNode44" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(0, -7552)
+position = Vector2(0, -10752)
 scale = Vector2(7, 2)
 
 [node name="BlockOutNode53" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(1472, -8640)
+position = Vector2(1472, -11840)
 scale = Vector2(3, 19)
 
 [node name="BlockOutNode45" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(1664, -7424)
+position = Vector2(1664, -10624)
 rotation = -4.71239
 scale = Vector2(12, 7)
 
 [node name="BlockOutNode46" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(-1664, -7744)
+position = Vector2(-1664, -10944)
 scale = Vector2(11, 2)
 
 [node name="BlockOutNode47" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(-1664, -8256)
+position = Vector2(-1664, -11456)
 scale = Vector2(7, 3)
 
 [node name="BlockOutNode50" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(-1088, -8960)
+position = Vector2(-1088, -12160)
 scale = Vector2(6, 4)
 
 [node name="BlockOutNode51" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(1088, -9856)
+position = Vector2(1088, -13056)
 scale = Vector2(6, 4)
 
 [node name="BlockOutNode52" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(0, -9792)
+position = Vector2(0, -12992)
 rotation = -1.5708
 scale = Vector2(7, 8)
 
 [node name="BlockOutNode54" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(448, -9344)
+position = Vector2(448, -12544)
 rotation = 1.5708
 scale = Vector2(13, 7)
 
 [node name="BlockOutNode57" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(-576, -9792)
+position = Vector2(-576, -12992)
 rotation = -1.5708
 scale = Vector2(8, 3)
 
 [node name="BlockOutNode58" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(-1664, -11072)
+position = Vector2(-1664, -14272)
 rotation = -1.5708
 scale = Vector2(12, 8)
 
 [node name="BlockOutNode59" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(-1408, -9408)
+position = Vector2(-1408, -12608)
 rotation = -1.5708
 scale = Vector2(21, 4)
 
 [node name="BlockOutNode60" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(0, -10752)
+position = Vector2(0, -13952)
 rotation = -1.5708
 scale = Vector2(11, 8)
 
 [node name="BlockOutNode64" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(-576, -10560)
+position = Vector2(-576, -13760)
 rotation = -1.5708
 scale = Vector2(6, 5)
 
 [node name="BlockOutNode63" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(-896, -12096)
+position = Vector2(-896, -15296)
 rotation = -1.5708
 scale = Vector2(12, 4)
 
 [node name="BlockOutNode66" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(-1216, -13120)
+position = Vector2(-1216, -16320)
 rotation = -1.5708
 scale = Vector2(4, 2)
 
 [node name="BlockOutNode71" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(1280, -14720)
+position = Vector2(1280, -17920)
 rotation = -1.5708
 scale = Vector2(2, 2)
 
 [node name="BlockOutNode72" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(1024, -15424)
+position = Vector2(1024, -18624)
 rotation = -1.5708
 scale = Vector2(2, 2)
 
 [node name="BlockOutNode73" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(1344, -16128)
+position = Vector2(1344, -19328)
 rotation = -1.5708
 scale = Vector2(2, 2)
 
 [node name="BlockOutNode79" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(-448, -16384)
+position = Vector2(-448, -19584)
 rotation = -1.5708
 scale = Vector2(2, 2)
 
 [node name="BlockOutNode80" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(-768, -17088)
+position = Vector2(-768, -20288)
 rotation = -1.5708
 scale = Vector2(2, 2)
 
 [node name="BlockOutNode83" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(-768, -18304)
+position = Vector2(-768, -21504)
 rotation = -1.5708
 scale = Vector2(2, 2)
 
 [node name="BlockOutNode86" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(-768, -18560)
+position = Vector2(-768, -21760)
 rotation = -1.5708
 scale = Vector2(8, 14)
 
 [node name="BlockOutNode84" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(-384, -18304)
+position = Vector2(-384, -21504)
 rotation = -1.5708
 scale = Vector2(2, 2)
 
 [node name="BlockOutNode85" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(0, -18304)
+position = Vector2(0, -21504)
 rotation = -1.5708
 scale = Vector2(2, 2)
 
 [node name="BlockOutNode89" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(128, -18816)
+position = Vector2(128, -22016)
 rotation = -1.5708
 scale = Vector2(2, 4)
 
 [node name="BlockOutNode98" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(1024, -18816)
+position = Vector2(1024, -22016)
 rotation = -1.5708
 scale = Vector2(2, 10)
 
 [node name="BlockOutNode97" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(-1280, -18560)
+position = Vector2(-1280, -21760)
 rotation = -1.5708
 scale = Vector2(2, 8)
 
 [node name="BlockOutNode90" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(-512, -19648)
+position = Vector2(-512, -22848)
 rotation = -1.5708
 scale = Vector2(2, 2)
 
 [node name="BlockOutNode93" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(-896, -19968)
+position = Vector2(-896, -23168)
 rotation = -1.5708
 scale = Vector2(2, 2)
 
 [node name="BlockOutNode94" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(-448, -20288)
+position = Vector2(-448, -23488)
 rotation = -1.5708
 scale = Vector2(2, 2)
 
 [node name="BlockOutNode95" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(256, -20544)
+position = Vector2(256, -23744)
 rotation = -1.5708
 scale = Vector2(2, 2)
 
 [node name="BlockOutNode91" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(256, -19392)
+position = Vector2(256, -22592)
 rotation = -1.5708
 scale = Vector2(2, 4)
 
 [node name="BlockOutNode92" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(1536, -19456)
+position = Vector2(1536, -22656)
 rotation = -1.5708
 scale = Vector2(26, 2)
 
 [node name="BlockOutNode88" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(1024, -18112)
+position = Vector2(1024, -21312)
 rotation = -1.5708
 scale = Vector2(4, 10)
 
 [node name="BlockOutNode75" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(512, -16128)
+position = Vector2(512, -19328)
 rotation = -1.5708
 scale = Vector2(8, 5)
 
 [node name="BlockOutNode78" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(-1664, -16640)
+position = Vector2(-1664, -19840)
 rotation = -1.5708
 scale = Vector2(8, 5)
 
 [node name="BlockOutNode81" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(-1664, -17152)
+position = Vector2(-1664, -20352)
 rotation = -1.5708
 scale = Vector2(9, 9)
 
 [node name="BlockOutNode87" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(-1664, -19712)
+position = Vector2(-1664, -22912)
 rotation = -1.5708
 scale = Vector2(6, 9)
 
 [node name="BlockOutNode82" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(-1216, -17984)
+position = Vector2(-1216, -21184)
 rotation = -1.5708
 scale = Vector2(5, 2)
 
 [node name="BlockOutNode69" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(-1664, -14656)
+position = Vector2(-1664, -17856)
 rotation = -1.5708
 scale = Vector2(16, 13)
 
 [node name="BlockOutNode70" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(1664, -17600)
+position = Vector2(1664, -20800)
 rotation = -4.71239
 scale = Vector2(8, 18)
 
 [node name="BlockOutNode74" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(1664, -13824)
+position = Vector2(1664, -17024)
 rotation = -4.71239
 scale = Vector2(13, 7)
 
 [node name="BlockOutNode67" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(-192, -13952)
+position = Vector2(-192, -17152)
 rotation = -4.71239
 scale = Vector2(3, 3)
 
 [node name="BlockOutNode76" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(-384, -13824)
+position = Vector2(-384, -17024)
 rotation = -4.71239
 scale = Vector2(1, 2)
 
 [node name="BlockOutNode68" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(0, -13952)
+position = Vector2(0, -17152)
 rotation = -1.5708
 scale = Vector2(10, 1)
 
 [node name="BlockOutNode77" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(64, -13952)
+position = Vector2(64, -17152)
 rotation = -1.5708
 scale = Vector2(8, 2)
 
 [node name="BlockOutNode65" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(-1664, -12096)
+position = Vector2(-1664, -15296)
 rotation = -1.5708
 scale = Vector2(13, 4)
 
 [node name="BlockOutNode56" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(0, -12224)
+position = Vector2(0, -15424)
 rotation = -1.5708
 scale = Vector2(7, 4)
 
 [node name="BlockOutNode62" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(768, -12352)
+position = Vector2(768, -15552)
 rotation = -1.5708
 scale = Vector2(2, 4)
 
 [node name="BlockOutNode55" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(1088, -10880)
+position = Vector2(1088, -14080)
 rotation = -1.5708
 scale = Vector2(14, 6)
 
 [node name="BlockOutNode49" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(-576, -9344)
+position = Vector2(-576, -12544)
 scale = Vector2(3, 4)
 
 [node name="BlockOutNode34" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(1664, -4160)
+position = Vector2(1664, -7360)
 rotation = 3.14159
 scale = Vector2(20, 8)
 
 [node name="BlockOutNode40" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(1664, -4672)
+position = Vector2(1664, -7872)
 rotation = 3.14159
 scale = Vector2(23, 11)
 
 [node name="BlockOutNode22" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(-1664, -3776)
+position = Vector2(-1664, -6976)
 scale = Vector2(11, 2)
 
 [node name="BlockOutNode18" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(-1664, -3648)
+position = Vector2(-1664, -6848)
 scale = Vector2(2, 9)
 
 [node name="BlockOutNode23" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(-1664, -4672)
+position = Vector2(-1664, -7872)
 scale = Vector2(11, 2)
 
 [node name="BlockOutNode24" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(-1664, -4544)
+position = Vector2(-1664, -7744)
 scale = Vector2(2, 12)
 
 [node name="BlockOutNode25" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(-1664, -5376)
+position = Vector2(-1664, -8576)
 scale = Vector2(6, 7)
 
 [node name="BlockOutNode26" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(-1664, -4928)
+position = Vector2(-1664, -8128)
 scale = Vector2(2, 4)
 
 [node name="BlockOutNode27" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(-1664, -7168)
+position = Vector2(-1664, -10368)
 scale = Vector2(11, 19)
 
 [node name="BlockOutNode28" parent="Platforms" instance=ExtResource("3_qy63d")]
-position = Vector2(-1664, -5952)
+position = Vector2(-1664, -9152)
 scale = Vector2(2, 9)
 
 [node name="Slopes" type="StaticBody2D" parent="."]
 physics_material_override = SubResource("PhysicsMaterial_r4e4k")
 
 [node name="SlideNode2" parent="Slopes" instance=ExtResource("4_6et1j")]
-position = Vector2(256, 5056)
+position = Vector2(256, 1856)
 scale = Vector2(1.75, 1.75)
 polygon = PackedVector2Array(109.714, -8228.57, 109.714, -7753.14, 219.429, -7753.14, 219.429, -8118.86)
 
 [node name="SlideNode4" parent="Slopes" instance=ExtResource("4_6et1j")]
-position = Vector2(-1344, 4160)
+position = Vector2(-1344, 960)
 scale = Vector2(1.75, 1.75)
 polygon = PackedVector2Array(109.714, -8265.13, 109.714, -7753.14, 292.571, -7753.14, 292.571, -8082.29)
 
 [node name="SlideNode8" parent="Slopes" instance=ExtResource("4_6et1j")]
-position = Vector2(-1536, 1856)
+position = Vector2(-1536, -1344)
 scale = Vector2(1.75, 1.75)
 polygon = PackedVector2Array(-73.1428, -7972.57, -73.1429, -7826.29, 219.428, -7826.29, 73.1428, -7972.57)
 
 [node name="SlideNode9" parent="Slopes" instance=ExtResource("4_6et1j")]
-position = Vector2(-1536, 768)
+position = Vector2(-1536, -2432)
 scale = Vector2(1.75, 1.75)
 polygon = PackedVector2Array(-73.1428, -7972.57, -73.1429, -7826.29, 73.1428, -7826.29)
 
 [node name="SlideNode10" parent="Slopes" instance=ExtResource("4_6et1j")]
-position = Vector2(192, -704)
+position = Vector2(192, -3904)
 scale = Vector2(1.75, 1.75)
 polygon = PackedVector2Array(841.143, -9654.86, 841.143, -9947.43, 475.429, -9947.43, 182.857, -9654.86)
 
 [node name="SlideNode18" parent="Slopes" instance=ExtResource("4_6et1j")]
-position = Vector2(704, -2048)
+position = Vector2(704, -5248)
 scale = Vector2(1.75, 1.75)
 polygon = PackedVector2Array(548.571, -9654.86, 548.571, -9947.43, 475.429, -9947.43, 182.857, -9654.86)
 
 [node name="SlideNode20" parent="Slopes" instance=ExtResource("4_6et1j")]
-position = Vector2(-1728, -1664)
+position = Vector2(-1728, -4864)
 scale = Vector2(1.75, 1.75)
 polygon = PackedVector2Array(548.571, -9728, 548.571, -9947.43, 475.429, -9947.43, 256, -9728)
 
 [node name="SlideNode11" parent="Slopes" instance=ExtResource("4_6et1j")]
-position = Vector2(-384, 2240)
+position = Vector2(-384, -960)
 scale = Vector2(1.75, 1.75)
 polygon = PackedVector2Array(694.857, -9947.43, 694.857, -10496, 512, -10496, 182.857, -10203.4, 182.857, -9947.43)
 
 [node name="SlideNode15" parent="Slopes" instance=ExtResource("4_6et1j")]
-position = Vector2(-1984, 1728)
+position = Vector2(-1984, -1472)
 scale = Vector2(1.75, 1.75)
 polygon = PackedVector2Array(658.286, -9947.43, 658.286, -10203.4, 365.714, -10496, 182.857, -10496, 182.857, -9947.43)
 
 [node name="SlideNode22" parent="Slopes" instance=ExtResource("4_6et1j")]
-position = Vector2(-1984, -2688)
+position = Vector2(-1984, -5888)
 scale = Vector2(1.75, 1.75)
 polygon = PackedVector2Array(512, -9947.43, 512, -10203.4, 182.857, -10496, 182.857, -9947.43)
 
 [node name="SlideNode5" parent="Slopes" instance=ExtResource("4_6et1j")]
-position = Vector2(-1856, 5440)
+position = Vector2(-1856, 2240)
 scale = Vector2(1.75, 1.75)
 polygon = PackedVector2Array(109.714, -8265.13, 109.714, -8009.14, 292.571, -8009.14, 292.571, -8082.29)
 
 [node name="SlideNode3" parent="Slopes" instance=ExtResource("4_6et1j")]
-position = Vector2(1216, 5760)
+position = Vector2(1216, 2560)
 scale = Vector2(1.64062, 1.75)
 polygon = PackedVector2Array(-156.039, -7936, -156.039, -7533.71, 0, -7387.43, 0, -7533.71, 156.039, -7533.71, 156.039, -8228.57)
 
 [node name="SlideNode6" parent="Slopes" instance=ExtResource("4_6et1j")]
-position = Vector2(1408, -640)
+position = Vector2(1408, -3840)
 scale = Vector2(1.64062, 1.75)
 polygon = PackedVector2Array(-117.029, -7606.86, -117.029, -7533.71, 0, -7533.71, 156.039, -7533.71, 156.039, -7862.86)
 
 [node name="SlideNode16" parent="Slopes" instance=ExtResource("4_6et1j")]
-position = Vector2(-640, -1472)
+position = Vector2(-640, -4672)
 scale = Vector2(1.64062, 1.75)
 polygon = PackedVector2Array(-117.029, -7862.86, -117.029, -7533.71, -624.154, -7533.71, -624.154, -7387.43, -117.029, -7387.43, 0, -7387.43, 156.039, -7533.71, 156.039, -7606.86)
 
 [node name="SlideNode12" parent="Slopes" instance=ExtResource("4_6et1j")]
-position = Vector2(128, -64)
+position = Vector2(128, -3264)
 scale = Vector2(1.64062, 1.75)
 polygon = PackedVector2Array(-78.0193, -7936, -78.0193, -7826.29, 0, -7826.29, 39.0096, -7862.86, 39.0096, -7936)
 
 [node name="SlideNode17" parent="Slopes" instance=ExtResource("4_6et1j")]
-position = Vector2(-1216, -3264)
+position = Vector2(-1216, -6464)
 scale = Vector2(1.64062, 1.75)
 polygon = PackedVector2Array(-78.0193, -7936, -78.0193, -7753.14, 78.0193, -7899.43, 78.0193, -7936)
 
 [node name="SlideNode21" parent="Slopes" instance=ExtResource("4_6et1j")]
-position = Vector2(-1216, -5824)
+position = Vector2(-1216, -9024)
 scale = Vector2(1.64062, 1.75)
 polygon = PackedVector2Array(-273.068, -7936, -273.068, -7570.29, 78.0193, -7899.43, 78.0193, -7936)
 
 [node name="SlideNode19" parent="Slopes" instance=ExtResource("4_6et1j")]
-position = Vector2(256, -4928)
+position = Vector2(256, -8128)
 scale = Vector2(1.64062, 1.75)
 polygon = PackedVector2Array(-78.0193, -7936, -78.0193, -7789.71, -39.0096, -7826.29, 0, -7862.86, 78.0193, -7936)
 
 [node name="SlideNode13" parent="Slopes" instance=ExtResource("4_6et1j")]
-position = Vector2(-576, -64)
+position = Vector2(-576, -3264)
 scale = Vector2(1.64062, 1.75)
 polygon = PackedVector2Array(39.0096, -7862.86, 117.029, -7862.86, 117.029, -7936)
 
 [node name="SlideNode14" parent="Slopes" instance=ExtResource("4_6et1j")]
-position = Vector2(-64, -704)
+position = Vector2(-64, -3904)
 scale = Vector2(1.64062, 1.75)
 polygon = PackedVector2Array(39.0096, -7936, 39.0096, -7862.86, 117.029, -7862.86)
 
 [node name="SlideNode7" parent="Slopes" instance=ExtResource("4_6et1j")]
-position = Vector2(1408, 768)
+position = Vector2(1408, -2432)
 scale = Vector2(1.64062, 1.75)
 polygon = PackedVector2Array(-117.029, -7862.86, -117.029, -7753.14, 0, -7643.43, 156.039, -7643.43, 156.039, -7862.86)
 
@@ -1004,7 +1106,7 @@ position = Vector2(0, -41024)
 metadata/_edit_lock_ = true
 
 [node name="End" type="Area2D" parent="."]
-position = Vector2(-1152, -13504)
+position = Vector2(-1152, -16704)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="End"]
 shape = SubResource("RectangleShape2D_ifaiv")
@@ -1015,7 +1117,7 @@ polygon = PackedVector2Array(-64, -64, 64, -64, 64, 64, -64, 64)
 metadata/_edit_lock_ = true
 
 [node name="BlockOutNode" parent="." instance=ExtResource("6_5k4jt")]
-position = Vector2(832, -20928)
+position = Vector2(832, -24128)
 scale = Vector2(2, 2)
 
 [connection signal="body_entered" from="End" to="." method="OnEndAreaEntered"]

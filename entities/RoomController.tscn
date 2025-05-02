@@ -3,19 +3,16 @@
 [ext_resource type="Script" uid="uid://djn0cvpbh16g7" path="res://entities/RoomController.cs" id="1_wujij"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_1ospv"]
-size = Vector2(1920, 890.25)
+size = Vector2(1600, 896)
 
 [node name="RoomController" type="Area2D"]
 script = ExtResource("1_wujij")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, 71.75)
 scale = Vector2(2, 2)
 shape = SubResource("RectangleShape2D_1ospv")
 
-[node name="Camera2D" type="Camera2D" parent="."]
-enabled = false
-zoom = Vector2(0.5, 0.5)
+[node name="CameraPosition" type="Node2D" parent="."]
 
 [connection signal="body_entered" from="." to="." method="_OnBodyEntered"]
 [connection signal="body_exited" from="." to="." method="_OnBodyExited"]

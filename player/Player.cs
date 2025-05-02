@@ -27,6 +27,9 @@ public partial class Player : RigidBody2D
 	[Export]
 	float launchMultiplier { get; set; } = 1;
 
+	[Export]
+	float lineMultiplier { get; set; } = 1;
+
 	// Called when the node enters the scene tree for the first time.
 	public override void _Ready()
 	{
@@ -82,7 +85,7 @@ public partial class Player : RigidBody2D
 		Vector2 LaunchLineDirection = endPosition - startPosition;
 		LaunchLineDirection = ClipVector(LaunchLineDirection, minLaunchStrength, maxLaunchStrength);
 		GetNode<Line2D>("Line2D").AddPoint(GlobalPosition - Position);
-		GetNode<Line2D>("Line2D").AddPoint(GlobalPosition - Position + LaunchLineDirection);
+		GetNode<Line2D>("Line2D").AddPoint(GlobalPosition - Position + LaunchLineDirection* lineMultiplier);
 	}
 
 	

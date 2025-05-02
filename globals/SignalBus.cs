@@ -9,6 +9,9 @@ public partial class SignalBus : Node
 	[Signal]
 	public delegate void JumpSignalEventHandler();
 
+	[Signal]
+	public delegate void ChangeCameraPositionSignalEventHandler(Vector2 NewPosition);
+
 	private static SignalBus _instance;
 
 	public static SignalBus Instance
